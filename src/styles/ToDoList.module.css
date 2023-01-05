@@ -1,0 +1,165 @@
+.todolist_wrapper {
+  width: 512px;
+  height: 768px;
+
+  position: relative;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.04);
+  margin: 0 auto;
+  margin-top: 96px;
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.todolist_inner {
+  padding-top: 48px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.today {
+  margin: 0;
+  font-size: 36px;
+  color: #343a40;
+}
+
+.day {
+  margin-top: 4px;
+  color: #868e96;
+  font-size: 21px;
+}
+
+.left_task {
+  color: #20c997;
+  font-size: 18px;
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+.todoblock {
+  flex: 1;
+  padding: 20px 32px;
+  padding-bottom: 48px;
+  overflow-y: auto;
+}
+
+.todoitem_block {
+  display: flex;
+  align-items: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.check_icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  border: 1px solid #ced4da;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.check_icon.active {
+  border: 1px solid #38d9a9;
+  color: #38d9a9;
+}
+
+.todoitem {
+  flex: 1;
+  font-size: 21px;
+  color: #495057;
+}
+
+.remove_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #dee2e6;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.remove_btn:hover {
+  color: #ff6b6b;;
+}
+
+.insert_positioner {
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+
+.insert_form {
+  background: #f8f9fa;
+  padding-left: 32px;
+  padding-top: 32px;
+  padding-right: 32px;
+  padding-bottom: 72px;
+
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  border-top: 1px solid #e9ecef;
+}
+
+.insert_input {
+  padding: 12px;
+  border-radius: 4px;
+  border: 1px solid #dee2e6;
+  width: 100%;
+  outline: none;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+
+.add_btn {
+  background: #38d9a9;
+  z-index: 5;
+  cursor: pointer;
+  width: 80px;
+  height: 80px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  transform: translate(-50%, 50%);
+  color: white;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: 0.125s all ease-in;
+}
+
+.add_btn:hover {
+  background: #63e6be;
+}
+
+.add_btn.open {
+  background: #ff6b6b;
+  transform: translate(-50%, 50%) rotate(45deg);
+}
+.add_btn.open:hover {
+  background: #ff8787;
+}
+.add_btn.open.active {
+  background: #fa5252;
+}
+.add_btn.active {
+  background: #20c997;
+}

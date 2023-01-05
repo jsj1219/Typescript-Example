@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+}
+
+.nav_container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  background-color: #20c997;
+}
+
+.nav_item {
+  display: inline-block;
+  line-height: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+.nav_item a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+.nav_item:hover {
+  background-color: lightgray;
+}

@@ -1,0 +1,43 @@
+.wrapper {
+  width: 512px;
+  height: 768px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.04);
+  margin: 0 auto;
+  margin-top: 96px;
+  margin-bottom: 32px;
+}
+
+.counter_inner {
+  padding-top: 48px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 24px;
+}
+
+.header {
+  font-size: 2rem;
+  margin: 1rem 0;
+  font-weight: 600;
+}
+
+.count {
+  color: #20c997;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.increase_btn {
+  margin-right: 10px;
+}
+
+.btn {
+  border: 1px solid #ddd;
+  background-color: #fff;
+  padding: 10px;
+  width: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+}
