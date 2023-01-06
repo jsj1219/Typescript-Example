@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import ToDoListStyles from "@styles/ToDoList.module.css";
 import { MdAdd } from "react-icons/md";
+import ToDoListStyles from "@styles/ToDoList.module.css";
+
 import { useToDoDispatch } from "@context/ToDoListContext";
 
 function ToDoListFooter() {

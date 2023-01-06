@@ -1,6 +1,6 @@
 import ToDoListStyles from "@styles/ToDoList.module.css";
-import { useToDoState } from "@context/ToDoListContext";
 
+import { useToDoState } from "@context/ToDoListContext";
 
 function ToDoListHead() {
   const toDos = useToDoState();

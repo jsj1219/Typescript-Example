@@ -1,9 +1,8 @@
-import CounterStyles from "@styles/Counter.module.css";
 import {useState} from "react";
+import CounterStyles from "@styles/Counter.module.css";
 
 function Counter() {
   // Generics를 사용하여 해당 상태가 어떤 타입을 가지고 있을지 설정
-  // 초기값을 지정해주는 아래와 같은 상황에서는 생략해도 무방
   const [count, setCount] = useState<number>(0);
 
   const onIncrease = () => {

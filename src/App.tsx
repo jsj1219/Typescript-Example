@@ -1,11 +1,11 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import "./App.css";
-import "./index.css";
+import "@/App.css";
+import "@/index.css";
 
-import Counter from "./components/Counter";
-import ToDoList from "./components/ToDoList";
-import NotFound from "./components/NotFound";
-import Header from "./components/Header";
+import Counter from "@components/Counter";
+import ToDoList from "@components/ToDoList";
+import NotFound from "@components/NotFound";
+import Header from "@components/Header";
 
 function App() {
   return (
