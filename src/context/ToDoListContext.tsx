@@ -68,7 +68,7 @@ export function ToDoProvider({ children }: { children: React.ReactNode }) {
 
 export function useToDoState() {
   const state = useContext(ToDosStateContext);
-  if (!state) throw new Error('TodosProvider not found');
+  if (!state) throw new Error('TodosProvider not found'); //유효성 검사 하지 않을시 호출하는 컴포넌트에서 에러
   return state;
 }
 

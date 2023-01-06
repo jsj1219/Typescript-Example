@@ -4,8 +4,8 @@ import { MdAdd } from "react-icons/md";
 import { useToDoDispatch } from "@context/ToDoListContext";
 
 function ToDoListFooter() {
-  const [open, setOpen] = useState(false);
-  const [value, setValue] = useState('');
+  const [open, setOpen] = useState<boolean>(false);
+  const [value, setValue] = useState<string>('');
 
   const dispatch = useToDoDispatch();
 
